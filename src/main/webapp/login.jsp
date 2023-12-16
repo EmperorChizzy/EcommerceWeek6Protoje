@@ -18,7 +18,9 @@
 		<div class="wrapper" style="background-image: url('images/bg-registration-form-2.jpg');">
 			<div class="inner">
 				<form action="user" method="post">
-					<input hidden="hidden" name="login" value="login">
+					<label>
+						<input hidden="hidden" name="login" value="login">
+					</label>
 					<h3>LOGIN FORM</h3>
 					<div class="form-wrapper">
 						<label for="email">Email</label>
